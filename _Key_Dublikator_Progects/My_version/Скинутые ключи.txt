@@ -1,0 +1,24 @@
+Read ALL key code from EEPROM: 
+1:FF:FF:FF:FF:FF:FF:2F:
+1:BE:40:11:5A:36:0:E1:
+1:BE:40:11:5A:56:0:BB:
+1:BE:40:11:0:0:0:77:
+1:BE:40:11:A:0:0:1D:
+1:FF:FF:FF:FF:0:0:9B:
+FF:FF:FF:FF:FF:FF:FF:14:
+FF:8E:80:2:8B:29:5F:D0:
+1:96:5D:28:9:0:0:A5:
+2B:1E:B8:76:0:0:0:C1:
+1B:BD:BD:7D:D0:0:0:0:
+Code Format: 
+keyID[0] = 0x1; keyID[1] = 0xFF; keyID[2] = 0xFF; keyID[3] = 0xFF; keyID[4] = 0xFF; keyID[5] = 0xFF; keyID[6] = 0xFF; keyID[7] = 0x2F; 
+keyID[0] = 0x1; keyID[1] = 0xBE; keyID[2] = 0x40; keyID[3] = 0x11; keyID[4] = 0x5A; keyID[5] = 0x36; keyID[6] = 0x0; keyID[7] = 0xE1; 
+keyID[0] = 0x1; keyID[1] = 0xBE; keyID[2] = 0x40; keyID[3] = 0x11; keyID[4] = 0x5A; keyID[5] = 0x56; keyID[6] = 0x0; keyID[7] = 0xBB; 
+keyID[0] = 0x1; keyID[1] = 0xBE; keyID[2] = 0x40; keyID[3] = 0x11; keyID[4] = 0x0; keyID[5] = 0x0; keyID[6] = 0x0; keyID[7] = 0x77; 
+keyID[0] = 0x1; keyID[1] = 0xBE; keyID[2] = 0x40; keyID[3] = 0x11; keyID[4] = 0xA; keyID[5] = 0x0; keyID[6] = 0x0; keyID[7] = 0x1D; 
+keyID[0] = 0x1; keyID[1] = 0xFF; keyID[2] = 0xFF; keyID[3] = 0xFF; keyID[4] = 0xFF; keyID[5] = 0x0; keyID[6] = 0x0; keyID[7] = 0x9B; 
+keyID[0] = 0xFF; keyID[1] = 0xFF; keyID[2] = 0xFF; keyID[3] = 0xFF; keyID[4] = 0xFF; keyID[5] = 0xFF; keyID[6] = 0xFF; keyID[7] = 0x14; 
+keyID[0] = 0xFF; keyID[1] = 0x8E; keyID[2] = 0x80; keyID[3] = 0x2; keyID[4] = 0x8B; keyID[5] = 0x29; keyID[6] = 0x5F; keyID[7] = 0xD0; 
+keyID[0] = 0x1; keyID[1] = 0x96; keyID[2] = 0x5D; keyID[3] = 0x28; keyID[4] = 0x9; keyID[5] = 0x0; keyID[6] = 0x0; keyID[7] = 0xA5; 
+keyID[0] = 0x2B; keyID[1] = 0x1E; keyID[2] = 0xB8; keyID[3] = 0x76; keyID[4] = 0x0; keyID[5] = 0x0; keyID[6] = 0x0; keyID[7] = 0xC1; 
+keyID[0] = 0x1B; keyID[1] = 0xBD; keyID[2] = 0xBD; keyID[3] = 0x7D; keyID[4] = 0xD0; keyID[5] = 0x0; keyID[6] = 0x0; keyID[7] = 0x0; 
