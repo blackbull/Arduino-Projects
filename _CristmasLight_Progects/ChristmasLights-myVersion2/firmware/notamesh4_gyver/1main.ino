@@ -196,6 +196,8 @@ void setup() {
   myOLED.setFont(SmallFont);                               //Перед выводом текста необходимо выбрать шрифт
 
   myOLED.print(F("MODE    DEMO   BRIGHT"), 0, 0);
+  myOLED.print(F("1-clk   2-clk   hold"), 0, 46);
+  myOLED.print(F("flash  demo on   L/R"), 0, 54);
   myOLED.update();
 
 
